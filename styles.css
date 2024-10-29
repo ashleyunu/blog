@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6990C8;  /* Fondo principal */
+    color: #333;  /* Texto en color oscuro */
+}
+
+header {
+    background-color: #333D91;  /* Color de encabezado */
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #A5AED6;  /* Color de los enlaces en el menú */
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    background-color: #A5AED6;  /* Fondo para secciones principales */
+}
+
+article {
+    background-color: #B1BBD9;  /* Fondo de los artículos */
+    padding: 15px;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333D91;  /* Color del pie de página */
+    color: white;
+}
+
+form {
+    background-color: #B1BBD9;  /* Fondo del formulario */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #5163AE;  /* Borde de los campos de entrada */
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #5163AE;  /* Color del botón de enviar */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #333D91;  /* Color del botón al pasar el cursor */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #A5AED6;  /* Borde de las imágenes */
+}
